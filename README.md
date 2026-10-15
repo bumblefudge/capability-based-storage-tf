@@ -1,20 +1,16 @@
-# markdown-to-spec
-Markdown to spec template. 
+# Capability Based Storage Task Force
 
-This lets you write your specs in markdown, or technically [bikeshed](https://github.com/tabatkins/bikeshed) -- a markdown document, with special extensions understood by the bikeshed tool. The bikeshed tool is run on-commit via the [spec-prod github action](https://github.com/w3c/spec-prod), generating the familiar "spec looking" ReSpec format. ReSpec is just html with a javascript ReSpec library.
+This is the general repository for the Capability Based Storage Task Force,
+hosted at W3C CCG (Credentials Community Group)
 
-## Get started
+Task Force calendar: https://www.w3.org/groups/tf/capability-based-storage/calendar/
 
-1. Select "Use this template" and choose your repository
+## Specifications
 
-![Select template image](images/select-template.png)
+This task force is working on the following specifications:
 
-2. Go to Settings > Github Pages, and select `gh-pages` branch.
+- [Authorization Capabilities (ZCAPs)](https://w3c-ccg.github.io/zcap-spec/)
+- [Encrypted Data Vaults (EDVs)](https://identity.foundation/edv-spec/)
+- [Portable Web Spaces (PWSs)](https://w3c-ccg.github.io/wallet-attached-storage-spec/) (formerly known as Wallet-Attached Storage (WAS)).
 
-![Select gh-pages branch image](images/gh-pages.png)
 
-## Write your spec
-
-Start editing your spec (note .bs file extension). The github action runs on commit to automatically convert to respec/html, via bikeshed. 
-
-[Learn more about bikeshed](https://w3c-ccg.github.io/bikeshed_instructions.html)
